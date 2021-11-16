@@ -39,14 +39,4 @@ function main() {
 }
 main()
 
-// const check = (iCards1, iCards2) {
-//     if (iCards1 == iCards2) {
-//         return alert(`same card chosen twice`)
-//     } else if (cards[iCards1][`name`] == cards[iCards2][`name`]) {
-//         return true
-//     } else {
-//         return false
-//     }
-// }
-
 const check = (iCards1, iCards2) => (iCards1 == iCards2) ? alert(`same card chosen twice`) : (cards[iCards1][`name`] == cards[iCards2][`name`]);
